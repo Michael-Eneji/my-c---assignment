@@ -72,9 +72,9 @@ int main()
     cin >> thisYear;
     
     // Instantiate an object of class HealthProfile - passing relevant values to the constructor 
-     
+   HealthProfile patient(firstName, lastName, gender, day, month, year, height, weight, today, thisYear, thisMonth)  
 	// Print information from the object - by calling getInformation() function
-    
+   cout << patient.getInformation(); 
 int Age;
 
 double BMI;
